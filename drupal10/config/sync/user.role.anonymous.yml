@@ -1,0 +1,18 @@
+uuid: 4288d606-a90e-4446-9d5f-b8a81cc8cb97
+langcode: en
+status: true
+dependencies:
+  config:
+    - rest.resource.articles_resource
+  module:
+    - rest
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'restful get articles_resource'

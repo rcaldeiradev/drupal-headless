@@ -1,0 +1,5 @@
+name: Articles
+description: This is a demo module that manages and exports Articles.
+package: Demo
+type: module
+core_version_requirement: ^10

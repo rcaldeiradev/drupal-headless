@@ -1,0 +1,18 @@
+uuid: 1583e697-f107-4aca-98c2-7c58ec6fc72b
+langcode: en
+status: true
+dependencies:
+  module:
+    - articles
+    - serialization
+    - user
+id: articles_collection_resource
+plugin_id: articles_collection_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

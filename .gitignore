@@ -1,0 +1,2 @@
+# Skips JetBrains IDE files.
+.idea
