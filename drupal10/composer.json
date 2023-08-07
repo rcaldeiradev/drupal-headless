@@ -94,5 +94,13 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "behat/mink": "^1.10",
+        "behat/mink-browserkit-driver": "^2.1",
+        "phpspec/prophecy": "^1.17",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpunit/phpunit": "^9",
+        "symfony/phpunit-bridge": "^6.3"
     }
 }

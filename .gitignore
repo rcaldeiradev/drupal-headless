@@ -1,2 +1,5 @@
 # Skips JetBrains IDE files.
 .idea
+
+# Skip Mac's folder attributes file
+.DS_Store

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - rest.resource.articles_collection_resource
     - rest.resource.articles_resource
   module:
     - rest
@@ -15,4 +16,5 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'restful get articles_collection_resource'
   - 'restful get articles_resource'
