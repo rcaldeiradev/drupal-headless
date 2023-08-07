@@ -1,0 +1,55 @@
+name: Drupal
+type: profile
+description: 'Starts the Drupal Headless D10 installation with required configurations and contents for the headless setup.'
+core_version_requirement: '^10'
+
+distribution:
+  name: Drupal Headless
+
+install:
+  - articles:articles
+  - drupal:basic_auth
+  - drupal:block
+  - drupal:breakpoint
+  - drupal:ckeditor5
+  - drupal:dblog
+  - drupal:devel
+  - drupal:devel_generate
+  - drupal:dynamic_page_cache
+  - drupal:editor
+  - drupal:field
+  - drupal:field_ui
+  - drupal:filter
+  - drupal:language
+  - drupal:link
+  - drupal:locale
+  - drupal:mysql
+  - drupal:node
+  - drupal:rest
+  - drupal:restui
+  - drupal:serialization
+  - drupal:syslog
+  - drupal:system
+  - drupal:toolbar
+  - drupal:update
+  - drupal:user
+
+dependencies:
+  - articles
+  - ckeditor5
+  - dynamic_page_cache
+  - editor
+  - field
+  - mysql
+  - node
+  - rest
+  - serialization
+  - system
+  - user
+
+themes:
+  - stark
+  - claro
+
+find ./ -type f -exec sed -i '' '/^uuid: /d' {} \;
+  find ./ -type f -exec sed -i '' '/_core:/{N;d;}' {} \;

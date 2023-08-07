@@ -1,0 +1,11 @@
+langcode: en
+name: Drupal10
+mail: email@yoursite.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

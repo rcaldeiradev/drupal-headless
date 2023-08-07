@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - articles
+    - serialization
+    - user
+id: articles_resource
+plugin_id: articles_resource
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

@@ -15,11 +15,13 @@ lab and is not suitable for production websites without proper adaptation.
 
 #### Setup
 
-1. Go to the Drupal 10 directory `cd drupal10`.
-2. Install the Composer dependencies `composer install`.
-3. Start the DDEV Docker containers with `ddev start`.
+1. Go to the Drupal 10 directory: `cd drupal10`.
+2. Install the Composer dependencies: `composer install`.
+3. Start the DDEV Docker containers: `ddev start`.
+4. Install the Drupal website – the "Drupal Headless" distribution profile will be used: `ddev drush si -y`.
+5. Generate a few dummy articles: `ddev drush devel-generate:content 10 --bundles='article'`
 
-Project can be reached at http://drupal10.ddev.site
+The project can be reached at http://drupal10.ddev.site
 
 #### Executing the automated tests in the Articles module
 
