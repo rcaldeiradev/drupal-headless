@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "7c2de0e8-6e1f-406b-a31f-1227ae440929",
+		"name": "Drupal headless",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14418718"
+	},
+	"item": [
+		{
+			"name": "Articles collection",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://drupal10.ddev.site/api/v1/articles",
+					"protocol": "http",
+					"host": [
+						"drupal10",
+						"ddev",
+						"site"
+					],
+					"path": [
+						"api",
+						"v1",
+						"articles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Article by ID",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://drupal10.ddev.site/api/v1/articles",
+					"protocol": "http",
+					"host": [
+						"drupal10",
+						"ddev",
+						"site"
+					],
+					"path": [
+						"api",
+						"v1",
+						"articles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
